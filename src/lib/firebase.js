@@ -4,12 +4,13 @@ import { getFirestore } from "firebase/firestore";
 
 console.log(import.meta.env.VITE_apiKey)
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_apiKey,
-    authDomain: import.meta.env.VITE_authDomain,
-    projectId: import.meta.env.VITE_projectId,
-    storageBucket: import.meta.env.VITE_storageBucket,
-    messagingSenderId: import.meta.env.VITE_messagingSenderId,
-    appId:import.meta.env.VITE_appId,
+  apiKey: "AIzaSyDDJpAX-I5o9xQ7cGMzhPKYr_rH-zr2uVY",
+  authDomain: "online-lecture-scheduler.firebaseapp.com",
+  projectId: "online-lecture-scheduler",
+  storageBucket: "online-lecture-scheduler.appspot.com",
+  messagingSenderId: "41649005985",
+  appId: "1:41649005985:web:0a8b2c4d7e7fc5e39917e0",
+  measurementId: "G-M0F8Y3QX2R"
 };
 
 export const app = initializeApp(firebaseConfig);
