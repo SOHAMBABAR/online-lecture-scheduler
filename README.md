@@ -1,1 +1,1 @@
-# online-lecture-scheduler
+# admin-panel
