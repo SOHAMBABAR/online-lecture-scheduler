@@ -2,7 +2,6 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-console.log(import.meta.env.VITE_apiKey)
 const firebaseConfig = {
   apiKey: "AIzaSyDDJpAX-I5o9xQ7cGMzhPKYr_rH-zr2uVY",
   authDomain: "online-lecture-scheduler.firebaseapp.com",
